@@ -1,4 +1,4 @@
-#script by @venomXcrazy
+#script by @trusterbro11
 
 import telebot
 import subprocess
@@ -8,13 +8,14 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7543594921:AAEb0Qs9usGggKGl0Q-iZ-JimDzJhtv01e0')
+bot = telebot.TeleBot('7204562805:AAEYbOVHH6z-NsRpgFpMkw22YNluVi5MGtg')
+bot = telebot.TeleBot('7501646378:AAF4GybshfRP6nQVQSOFmSP8RJS-8COgLCU')
 
 # Admin user IDs
-admin_id = ["5894556386"]
+admin_id = ["2035820904"]
 
 # File to store allowed user IDs
-USER_FILE = "users.txt"
+USER_FILE = "log.txt"
 
 # File to store command logs
 LOG_FILE = "log.txt"
@@ -44,11 +45,11 @@ def read_free_users():
         pass
 
 # List to store allowed user IDs
-allowed_user_ids = read_users()
+allowed_user_ids = (@trustetbro11)
 
 # Function to log command to the file
 def log_command(user_id, target, port, time):
-    admin_id = ["5588464519"]
+    admin_id = ["2035820904"]
     user_info = bot.get_chat(user_id)
     if user_info.username:
         username = "@" + user_info.username
